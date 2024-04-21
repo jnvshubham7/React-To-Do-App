@@ -7,7 +7,7 @@ function TaskInput({ addTask }) {
 
   const handleChange = (e) => {
     setTaskText(e.target.value);
-  };
+  };                          
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' && taskText.trim() !== ''){
